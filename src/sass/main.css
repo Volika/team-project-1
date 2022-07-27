@@ -4338,7 +4338,7 @@ html {
   height: 344px;
   position: absolute;
   bottom: 75px;
-  left: 36px;
+  left: 65px;
   z-index: 0;
 }
 
@@ -4369,7 +4369,7 @@ html {
 .icecream-cone {
   position: absolute;
   top: 92px;
-  left: 117px;
+  left: 150px;
   z-index: 1;
   -webkit-animation-name: icecream-cone;
           animation-name: icecream-cone;
@@ -4633,12 +4633,12 @@ html {
   }
 }
 
-.button-wrap li:first-child {
+.button-wrap__item {
   margin-right: 8px;
 }
 
 @media screen and (min-width: 1280px) {
-  .button-wrap li:first-child {
+  .button-wrap__item {
     margin-right: 12px;
   }
 }
@@ -4930,7 +4930,7 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: -16px;
+    margin-left: -16px;
   }
 }
 
@@ -4943,7 +4943,7 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: -32px;
+    margin-left: -32px;
   }
 }
 
@@ -4965,9 +4965,8 @@ html {
 
 @media screen and (min-width: 768px) {
   .products__item {
-    -ms-flex-preferred-size: calc((100% - 32px) / 2);
-        flex-basis: calc((100% - 32px) / 2);
-    margin: 16px;
+    width: calc((100% - 16px) / 2);
+    margin-left: 16px;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 118px;
@@ -4976,11 +4975,10 @@ html {
 
 @media screen and (min-width: 1280px) {
   .products__item {
-    -ms-flex-preferred-size: calc((100% - 64px) / 2);
-        flex-basis: calc((100% - 64px) / 2);
-    margin: 32px;
-    padding-left: 77px;
-    padding-right: 77px;
+    width: calc((100% - 32px) / 2);
+    margin-left: 32px;
+    padding-left: 75px;
+    padding-right: 75px;
     padding-top: 165px;
     padding-bottom: 60px;
   }
@@ -5441,8 +5439,6 @@ html {
 }
 
 .bnt-about__icon {
-  width: 4.43px;
-  height: 8px;
   margin-left: 13.62px;
 }
 
